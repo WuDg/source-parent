@@ -37,7 +37,7 @@ public class Generator {
      * 数据源配置
      */
     private static final DataSourceConfig.Builder DATA_SOURCE_CONFIG = new DataSourceConfig
-            .Builder("jdbc:mysql://150.158.153.134:3306/generator?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=Asia/Shanghai", "root", "5555");
+            .Builder("jdbc:mysql://IP:3306/generator?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=Asia/Shanghai", "root", "");
 
     /**
      * 执行 run
