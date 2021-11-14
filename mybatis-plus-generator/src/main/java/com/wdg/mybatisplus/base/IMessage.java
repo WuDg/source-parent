@@ -2,6 +2,13 @@ package com.wdg.mybatisplus.base;
 
 import lombok.Getter;
 
+/**
+ *  @Description 消息枚举
+ *  
+ *  @author wudiguang
+ *  @Date 2021/11/14
+ */ 
+
 @Getter
 public enum IMessage {
     PASS("200", "SUCCESS"),

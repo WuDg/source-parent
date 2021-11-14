@@ -26,11 +26,11 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
- * 顶级 Service
- *
- * @author hubin
- * @since 2018-06-23
- */
+ *  @Description 顶级 Service
+ *  
+ *  @author wudiguang
+ *  @Date 2021/11/14
+ */ 
 public interface IService<T> {
 
 //    /**

@@ -6,6 +6,12 @@ import com.wdg.api.service.HelloService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ *  @Description 测试 controller
+ *  
+ *  @author wudiguang
+ *  @Date 2021/11/14
+ */ 
 @RestController
 public class HelloController {
 

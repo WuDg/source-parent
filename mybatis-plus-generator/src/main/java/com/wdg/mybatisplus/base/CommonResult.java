@@ -3,7 +3,14 @@ package com.wdg.mybatisplus.base;
 import java.io.Serializable;
 import java.util.Date;
 
-public class CommonResult<T> extends BaseResult implements Serializable {
+/**
+ *  @Description 通用封装类
+ *
+ *  @author wudiguang
+ *  @Date 2021/11/14
+ */
+
+public class CommonResult<T> extends BaseResult<T> implements Serializable {
 
     private static final long serialVersionUID = -7268040542410707954L;
 

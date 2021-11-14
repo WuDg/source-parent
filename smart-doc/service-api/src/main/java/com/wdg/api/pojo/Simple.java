@@ -6,12 +6,15 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
+ *  @Description
  * <p>
  * 测试表
  * </p>
  *
- * @author wudiguang
- * @since 2021-11-13
+ *  @author wudiguang
+ *  @Date 2021/11/14
+ *  @version 1.0.0
+ *  @dubbo
  */
 @Data
 public class Simple implements Serializable {

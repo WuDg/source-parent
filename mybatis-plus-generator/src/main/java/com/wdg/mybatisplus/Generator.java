@@ -12,12 +12,12 @@ import java.sql.SQLException;
 import java.util.Collections;
 
 /**
+ *  @Description
  * <p>
  * 快速生成
  * </p>
- *
- * @author wudiguang
- * @since 2021-09-16
+ *  @author wudiguang
+ *  @Date 2021/11/14
  */
 
 public class Generator {

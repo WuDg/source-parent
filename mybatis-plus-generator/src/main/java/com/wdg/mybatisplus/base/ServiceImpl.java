@@ -41,11 +41,11 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 
 /**
- * IService 实现类（ 泛型：M 是 mapper 对象，T 是实体 ）
- *
- * @author hubin
- * @since 2018-06-23
- */
+ *  @Description IService 实现类（ 泛型：M 是 mapper 对象，T 是实体 ）
+ *  
+ *  @author wudiguang
+ *  @Date 2021/11/14
+ */ 
 @SuppressWarnings("unchecked")
 public class ServiceImpl<M extends BaseMapper<T>, T> implements IService<T> {
 
