@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  dubbo:
+    application:
+      name: dubbo-doc-consumer
+    registry:
+      address: zookeeper://150.158.153.134
+      port: 2181
+    scan: com.wdg.consumer.controller

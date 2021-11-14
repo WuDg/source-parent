@@ -1,0 +1,11 @@
+{
+  "isStrict": false,
+  "allInOne": true,
+  "outPath": "src/main/resources/static/doc",
+  "projectName": "dubbo-doc",
+  "rpcApiDependencies":[{
+    "artifactId":"service-api",
+    "groupId":"com.wdg",
+    "version":"0.0.1-SNAPSHOT"
+  }]
+}
