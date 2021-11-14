@@ -17,15 +17,14 @@
     <description>source-parent</description>
 
     <modules>
-        <module>mybatis-plus</module>
-        <module>service-api</module>
-        <module>dubbo-doc</module>
-        <module>dubbo-doc-consumer</module>
+        <module>mybatis-plus-generator</module>
+        <module>smart-doc</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring.boot.version>2.5.2</spring.boot.version>
     </properties>
 
     <dependencyManagement>
@@ -36,23 +35,20 @@
                 <version>1.18.22</version>
             </dependency>
             <dependency>
-                <groupId>com.wdg</groupId>
-                <artifactId>service-api</artifactId>
-                <version>0.0.1-SNAPSHOT</version>
-            </dependency>
-            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
+                <version>${spring.boot.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.5.2</version>
+                <version>${spring.boot.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring.boot.version}</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
