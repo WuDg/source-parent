@@ -4,7 +4,9 @@
 
 ## 二 smart-doc 零代码侵入文档生成
 
-[smart-doc](https://smart-doc-group.github.io/#/zh-cn/start/quickstart)
+* [smart-doc](https://smart-doc-group.github.io/#/zh-cn/start/quickstart)
+* [wiki](https://gitee.com/smart-doc-team/smart-doc/wikis/HOME)
+* [码云](https://gitee.com/smart-doc-team)
 ### 使用方法
 1. 引入smart-doc 的maven插件
 ```xml
