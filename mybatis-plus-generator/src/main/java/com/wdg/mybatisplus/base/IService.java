@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
  *  @Description 顶级 Service
  *  
  *  @author wudiguang
- *  @Date 2021/11/14
+ *  @Date 2021/11/15
  */ 
 public interface IService<T> {
 

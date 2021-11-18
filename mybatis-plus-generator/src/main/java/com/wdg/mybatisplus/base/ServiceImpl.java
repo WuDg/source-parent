@@ -44,7 +44,7 @@ import java.util.function.Function;
  *  @Description IService 实现类（ 泛型：M 是 mapper 对象，T 是实体 ）
  *  
  *  @author wudiguang
- *  @Date 2021/11/14
+ *  @Date 2021/11/15
  */ 
 @SuppressWarnings("unchecked")
 public class ServiceImpl<M extends BaseMapper<T>, T> implements IService<T> {
