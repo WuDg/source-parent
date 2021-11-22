@@ -24,18 +24,23 @@ public class Demo004 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length1 = nums1.length;
         int length2 = nums2.length;
+        // 结果数组
         int[] result = new int[length1 + length2];
 
+        // 遍历nums1和nums2
         while(length1 > 0 || length2 > 0){
+            // nums1和nums2未遍历完
             if(length1 > 0 && length2 > 0){
                 boolean num1Big = nums1[length1 - 1] >= nums2[length2 - 1];
                 result[length1 + length2 - 1] = num1Big ? nums1[--length1] : nums2[--length2];
             }else if(length2 > 0){
+                // nums1遍历完，直接将nums2赋值给结果
                 while(length2 > 0){
                     result[length2 - 1] = nums2[length2 - 1];
                     length2--;
                 }
             }else if(length1 > 0){
+                // nums2遍历完，直接将nums2赋值给结果
                 while(length1 > 0){
                     result[length1 - 1] = nums1[length1 - 1];
                     length1--;
@@ -43,6 +48,7 @@ public class Demo004 {
             }
         }
         int length = result.length;
+        //  偶数个
         if(length% 2 == 0){
             return (result[length/2] + result[length/2 - 1])/2.0;
         }else{
