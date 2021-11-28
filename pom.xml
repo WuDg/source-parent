@@ -21,6 +21,7 @@
         <module>smart-doc</module>
         <module>leetcode</module>
         <module>event-bus</module>
+        <module>design-pattern</module>
     </modules>
 
     <properties>
