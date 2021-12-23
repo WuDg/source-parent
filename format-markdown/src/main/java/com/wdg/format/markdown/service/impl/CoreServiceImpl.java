@@ -1,16 +1,14 @@
 package com.wdg.format.markdown.service.impl;
 
-import com.alibaba.fastjson.JSON;
+
 import com.wdg.format.markdown.service.CoreService;
+import com.wdg.format.markdown.service.TextService;
 import com.wdg.format.markdown.service.TitleService;
-import com.wdg.format.markdown.util.FileReadUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.io.BufferedReader;
-import java.util.Objects;
-import java.util.Stack;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -29,12 +27,15 @@ public class CoreServiceImpl implements CoreService {
     @Autowired
     private TitleService titleService;
 
+    @Autowired
+    private TextService textService;
+
     @Override
     public String formatText(String path) throws Exception {
         // 标题
-        titleService.formatTitle(path);
+//        titleService.formatTitle(path);
         // 文本
-
+        textService.formatText(path);
         // 段落
 
         // 数值
