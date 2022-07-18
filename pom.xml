@@ -22,7 +22,7 @@
         <module>leetcode</module>
         <module>event-bus</module>
         <module>design-pattern</module>
-        <module>format-markdown</module>
+        <module>database-doc</module>
     </modules>
 
     <properties>
