@@ -41,13 +41,13 @@
                 </dependencies>
                 <configuration>
                     <!--username-->
-                    <username>myhooeg</username>
+                    <username>xxxx</username>
                     <!--password-->
-                    <password>myhooeg@0722</password>
+                    <password>xxxx</password>
                     <!--driver-->
                     <driverClassName>com.mysql.cj.jdbc.Driver</driverClassName>
                     <!--jdbc url-->
-                    <jdbcUrl>jdbc:mysql://120.76.75.216:53306/hoodb_message?serverTimezone=UTC</jdbcUrl>
+                    <jdbcUrl>jdbc:mysql://xx.xx.xx.xx:3306/dbname?serverTimezone=UTC</jdbcUrl>
                     <!--生成文件类型-->
                     <fileType>HTML</fileType>
                     <!--打开文件输出目录-->
@@ -55,7 +55,7 @@
                     <!--生成模板-->
                     <produceType>freemarker</produceType>
                     <!--文档名称 为空时:将采用[数据库名称-描述-版本号]作为文档名称-->
-                    <fileName>hoodb_message</fileName>
+                    <fileName>xxx</fileName>
                     <!--描述-->
                     <description>数据库文档生成</description>
                     <!--版本-->
